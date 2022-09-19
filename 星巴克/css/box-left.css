@@ -1,0 +1,164 @@
+.box-left{
+    background-color: #fff;
+  
+}
+.nav-logo{
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+.nav-box{
+    /* width: 100%; */
+    height: 100px;
+    padding: 30px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+  }
+  .nav-box-2{
+    /* width: 100%; */
+    height: 100px;
+    padding: 30px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+  }
+  .yonghu-box{
+    padding-left: 30px;
+  }
+  /* .yonghu{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+} */
+.nav-text{
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0 10px;
+    
+}
+.nav-icon{
+    margin-left: auto;
+}
+.nav-icon-2{
+    margin-left: auto;
+}
+.tishi{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.denglu{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: seagreen;
+}
+.zhuce{
+    font-size: 16px;
+    border: 1px seagreen solid;
+    border-radius: 15px;
+    width: 60px;
+    text-align: center;
+    color: seagreen;
+}
+.nav-right{
+    padding-left: 80px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul>li{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+ul>li>hr{
+    background-color: rgb(133, 133, 133);
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container>span{
+  
+    color: rgba(0, 0, 0, 0.38);
+}
+.container-text{
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 14px;
+    margin:0 5px;
+}
+.glyphicon{
+    font-size: 20px;
+}
+ /* pc */
+ @media screen and (min-width: 992px){
+    .box-left{
+        width: 30%;
+        position: fixed;
+        height: 100%;
+        border-right: 1px solid rgba(0,0,0,0.1);
+      
+    }
+    .yonghu-box{
+        width: 100%;
+        height: 100%;
+       padding: 200px 30px; 
+    }
+    .yonghu{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+
+  }
+
+  /* ipad */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .box-left{
+        width: 100%;
+        height: 100%;
+    }
+    .yonghu{
+        display: flex;
+        align-items: center;
+       margin: 0px 40%;
+       padding-bottom: 20px
+    }
+    
+  }
+
+  /* mobile */
+  @media screen and (max-width: 767px){
+   
+    .tishi{
+        padding: 20px 0;
+    }
+    .mininav-box{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        display: flex;
+        z-index: 9999;
+    }
+    .mininav{
+        width: 20%;
+        text-align: center;
+        
+    }
+    .nav-icon{
+        margin-top: 10px;
+    }
+    .nav-t{
+        font-size: 12px;
+    }
+   .yonghu{
+    display: flex;
+   }
+  }

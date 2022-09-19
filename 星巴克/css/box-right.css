@@ -1,0 +1,239 @@
+.lunbotu{
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+    
+}
+.lunbotu:nth-child(1){
+    background: url(./images/main_1.png);
+}
+.lunbotu:nth-child(2){
+    background: url(./images/main_2.jpg);
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.guangao {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 37px;
+    height: 22px;
+    background-color: #082f32;
+    z-index: 2;
+    text-align: center;
+    line-height: 22px;
+    color: #d5d5d5b5;
+    font-size: 12px;
+}
+.xx-icon{
+    position: absolute;
+    left: 25px;
+    top: -30px;
+    width: 102px;
+    height: 72px;
+    
+ }
+ .r1 {
+    margin-top: 25px;
+    padding: 0 20px;
+}
+
+.r2 {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+
+.liaojie {
+    color: #b99749;
+}
+
+.c1>div {
+    padding: 5px 0;
+}
+
+.julebu {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.xinghan {
+    font-size: 16px;
+    color: rgb(159, 155, 155);
+}
+
+.denglu-julebu {
+    display: flex;
+    margin-top: 20px;
+
+    align-items: center;
+}
+
+.zhuche-box {
+    width: 70px;
+    height: 40px;
+    border: 2px seagreen solid;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.zhuche-2 {
+    color: seagreen;
+    font-size: 16px;
+
+}
+
+.julebu-logo {
+    line-height: 150px;
+
+}
+
+.c2 {
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.jingxuan {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.qjd {
+    font-size: 16px;
+
+}
+.xx1 {
+    /* width: 165px; */
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+     margin-right: 20px;
+}
+
+.libao {
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.ka {
+    padding: 5px 0;
+    color: rgba(138, 138, 138, 0.911);
+}
+
+.liaojie2 {
+    padding-top: 20px;
+    color: #b99749;
+    padding-bottom: 30px;
+}
+
+.c3 {
+    display: flex;
+    margin: 80px 50px;
+}
+.c4{
+    background-color: #fcfcfc;
+    text-align: center;
+}
+.jiangtian{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.wenhua{
+    font-size: 16px;
+    color: rgb(135, 135, 135);  
+}
+.r4{
+text-align: center;
+margin-bottom: 50px;
+}
+.gongan {
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(86, 86, 86);
+}
+.gongan>span{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+/* pc */
+@media screen and (min-width: 992px){
+    .box-right{
+        width:70%;
+        height: 100%;
+        margin-left: 30%;
+    }
+    .lunbotu-box{
+        width: 100%;
+    }
+   .c2{
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px 100px;
+   }
+   
+}
+
+/* ipad */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .box-right{
+        width: 100%;
+       
+    }
+    .julebu-logo{
+        padding-left: 50px;
+     }
+    .xx1{
+        margin-right: 30px;
+    }
+   
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+ .r2{
+    text-align: center;
+ }
+ .denglu-julebu{
+    justify-content: center;
+ }
+ .julebu-logo{
+    padding-left: 0;
+ }
+ .s1{
+    margin-bottom: 20px;
+ }
+ .s1:last-child{
+    margin-bottom: 0;
+ }
+ .lunbotu-box{
+    height: 90%;
+ }
+ .r3{
+    margin-bottom: 56px;
+}
+.xx1:nth-child(1n){
+    margin-left: 20px;
+}
+.xx1{
+    margin-bottom: 50px;
+   
+}
+.xx-icon{
+
+    left: 100px;
+}
+
+}
